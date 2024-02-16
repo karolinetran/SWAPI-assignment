@@ -1,0 +1,36 @@
+.header{
+	display: flex;
+	justify-content: space-around;
+	background: black;
+	color: white;
+	height:10vh;
+}
+
+.info-and-search-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.search-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width:40%;
+	height:90vh;
+}
+
+.search-container button{
+	height: 20%;
+	border: 1px solid black;
+	border-radius: 0.2em;
+	font-size: x-large;
+	letter-spacing: 0.15em;
+}
+
+.search-container button:hover{
+	cursor: pointer;
+}
+
+.info-container{
+	padding:2em;
+}

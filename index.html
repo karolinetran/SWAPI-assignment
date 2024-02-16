@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars API</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	<div class="main-container">
+		<div class="header">
+			<h1>Star Wars Information</h1>
+		</div>
+		<div class="info-and-search-container">
+			<div class="search-container">
+				<button  id="searchBtnFilms" onclick="getSearchFilms()">Films</button>
+				<button  id="searchBtnPeople" onclick="getSearchPeople()">People</button>
+				<button  id="searchBtnPlanets" onclick="getSearchPlanets()">Planets</button>
+				<button  id="searchBtnVehicles" onclick="getSearchVehicles()">Vehicles</button>
+			</div>
+			<div class="info-container" id="info-container">
+			</div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+  </body>
+</html>
