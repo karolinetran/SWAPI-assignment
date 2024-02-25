@@ -33,4 +33,7 @@
 
 .info-container{
 	padding:2em;
+	display: grid;
+  	grid-template-columns: auto auto auto;
+	gap:1em;
 }
