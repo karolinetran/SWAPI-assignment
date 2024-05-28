@@ -1,4 +1,4 @@
-##Star Wars Informasjon
+## Star Wars Informasjon
 
 Dette prosjektet gir tilgang til informasjon om filmer, karakterer, planeter og kjøretøy i Star Wars universet. Hver kategori har sin egen side og henter informasjon fra SWAPI APIen. 
 
